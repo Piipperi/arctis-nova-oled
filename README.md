@@ -13,9 +13,9 @@ This also showcases the burn-in you will get if not careful with OLEDs. The flic
 ## Usage
 - `sanpwo img cool_image.png`: draw an image onto your display.
 - `sanpwo anim -r 10 -l 20 frame1.png frame2.png frame3.png`: play an animation at 10 fps, looped 20 times.
-- See `sanpwo --help` for more help, and [the `scripts`](https://github.com/JerwuQu/arctis-nova-oled/tree/master/scripts) for more examples.
+- See `sanpwo --help` for more help, and [the `scripts`](https://github.com/Piipperi/arctis-nova-oled/tree/master/scripts) for more examples.
 
 ## Install
 `cargo install --git https://github.com/JerwuQu/arctis-nova-oled.git`
 
-To run without root on linux you need to copy [`11-steelseries-arctis-nova.rules`](https://github.com/JerwuQu/arctis-nova-oled/blob/master/11-steelseries-arctis-nova.rules) into `/etc/udev/rules.d/` and run `udevadm control --reload` and `udevadm trigger` as root.
+To run without root on linux you need to copy [`11-steelseries-arctis-nova.rules`](https://github.com/Piipperi/arctis-nova-oled/blob/master/11-steelseries-arctis-nova.rules) into `/etc/udev/rules.d/` and run `udevadm control --reload` and `udevadm trigger` as root.
