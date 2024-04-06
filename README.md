@@ -1,3 +1,4 @@
+(forked from https://github.com/JerwuQu/arctis-nova-oled to attempt to make it compatible with the WIRED Arctis Nova)
 # arctis-nova-oled
 Put graphics on your SteelSeries Arctis Nova Pro Base Station 128x64 OLED screen.
 
